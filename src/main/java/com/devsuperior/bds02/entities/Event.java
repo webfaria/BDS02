@@ -25,8 +25,6 @@ public class Event {
 	@JoinColumn(name = "city_id")
 	private City city;
 
-	// Set<City> cities = new HashSet<>();
-
 	public Event() {
 	}
 
@@ -73,12 +71,8 @@ public class Event {
 	public City getCity() {
 		return city;
 	}
-
+	
 	public void setCity(City city) {
 		this.city = city;
 	}
-
-	/*
-	 * public Set<City> getCities() { return cities; }
-	 */
 }
